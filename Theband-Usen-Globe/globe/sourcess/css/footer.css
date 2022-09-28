@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('/sourcess/font/font-header/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'PoppinBold';
+    src: url('/sourcess/font/font-banner/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'PoppinsSemiBold';
+    src: url('/sourcess/font/font-banner/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+.footer{
+    background-color: #eef2f6;
+}
+.footer-top{
+    padding-top: 50px;
+    padding-bottom: 68px;
+}
+.footer-top a{
+    font-size: 18px;
+    color: #777777;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+}
+.footer-top a:hover{
+    color: #2236d7;
+}
+.footer-top ul{
+    list-style: none;
+}
+/* -----footer-1------- */
+.footer-1-social{
+    display: flex;
+    margin-bottom: 0;
+    margin-top: 33px;
+}
+
+.footer-1-logo{
+    margin-bottom: 31px;
+    margin-top: 2px;
+}
+.font-p-footer{
+    font-size: 18px;
+    color: #777777;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-weight: 400;
+    line-height: 31px;
+}
+.footer-1-social li{
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-right: 14px;
+    position: relative;
+    overflow: hidden;
+}
+.footer-1-social li::before{
+    position: absolute;
+    content: "";
+    background-color: #fccc00;
+    height: 0;
+    width: 100%;
+    left: 0;
+    top: 0;
+    transition: all 0.2s ease-in;
+    z-index: 0;
+}
+.footer-1-social li:hover::before{
+    height: 100%;
+    bottom: 0;
+    top: auto;
+    transform-origin: top;
+}
+.footer-1-social li a{
+    display: block;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-1-social li a i{
+   color: #002659;
+   z-index: 1;
+   
+}
+/* --footer-2-- */
+.wrap-footer-2{
+    padding-left: 62px;
+}
+.h3-footer{
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    color: #002659;
+    font-weight: 600;
+    font-family: 'PoppinsSemiBold'; 
+    margin-bottom: 30px;
+}
+.wrap-footer-2 li {
+    padding-bottom: 14px;
+}
+/* --footer-333 */
+.wrap-footer-3{
+    padding-left: 45px;
+}
+.footer-3-ul li{
+    display: flex;
+}
+.footer-3-ul li i{
+    color:#2236d7;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: #2236d7;
+    -webkit-text-stroke-width: 1.5px;
+    padding-right: 21px;
+}
+.footer-3-ul p{
+    margin-bottom: 0px !important;
+}
+.footer-3-ul li:nth-child(1){
+    margin-bottom: 17px;
+}
+.footer-3-ul li:nth-child(2){
+    margin-bottom: 33px;
+}
+.footer-3-ul li:nth-child(3) p{
+    font-size: 18px;
+    color: #777777;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* -----footer-4---- */
+.footer-4-ul span{
+font-size: 12px;
+margin-bottom: 13px;
+color: #0c21ca;
+text-transform: uppercase;
+text-decoration: underline;
+font-family: 'Roboto-Regular';
+}
+.wrap-li-ft-4 h4{
+    line-height: 1.1;
+    margin-bottom: 27px;
+}
+.wrap-li-ft-4 h4 a{
+    font-size: 16px;
+    font-family: 'PoppinsSemiBold';
+    line-height: 16px;
+    color: #002659;
+}
+.boder-footer-4-top{
+    border-bottom: 1px solid gainsboro;
+}.boder-footer-4-bottom{
+    margin-top: 20px;
+    border-bottom: 1px solid gainsboro ;
+}
+
+/* -------------------footer-bottom-------------- */
+.footer-bottom{
+    background-color: #0c21ca;
+    padding-top: 35px;
+    padding-bottom: 37px;
+}
+.footer-bottom ul{
+    list-style: none;
+}
+.footer-bottom-ul{
+    display: flex;
+    margin-bottom: 0;
+    justify-content: flex-end;
+}
+.footer-bottom-ul li{
+    margin-left: 56px;
+}
+.footer-bottom a{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Roboto-Regular', sans-serif;
+}
+.wrap-copyright{
+    font-size: 18px;
+    color: #71b0e1;
+}

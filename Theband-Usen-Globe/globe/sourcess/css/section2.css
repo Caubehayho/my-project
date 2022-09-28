@@ -1,0 +1,230 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('/sourcess/font/font-header/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'PoppinBold';
+    src: url('/sourcess/font/font-banner/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+.section-2{
+    position: relative;
+}
+.background-section-2{
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -5;
+    height: 673px;
+    position: absolute;
+    background-color: #eef2f6;
+}
+.section-2_bottom{
+    background-color: #ffffff;
+    position: relative;
+    margin-top: 77px;
+    height: 660px;
+}
+.chung{
+    overflow: hidden;
+    position: relative;
+}
+.chung::after{
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 0;
+  z-index: 1;
+  content: "";
+  opacity: 0.95;
+  position: absolute;
+  transition: 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  background-color: #0c21ca;
+}
+.chung:hover::after {
+    height: 100%;
+    /* transform: rotate(-45deg); */
+}
+.chung:hover .section_item{
+    opacity: 1;
+    transition: 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+    height: 100px;
+}
+
+.wrap_anh{
+    position: relative;
+}
+.wrap_anh img{
+    transition:  all 0.5s ease-out;
+}
+.chung:hover img{
+    transform: scale(1.08);
+}
+
+.section-2_icon{
+    position: absolute;
+    top: 20px;
+    left: -20%;
+    transform: translateX(-50px);
+    transition: 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+    z-index: 3;
+}
+/* .section-2_icon::after{
+    top: 0;
+    left: -50px;
+    background-color: rebeccapurple;
+    bottom: 0;
+    z-index: 0;
+    content: "";
+    position: absolute; 
+    transition: 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+} */
+.section-2_icon_wrap{
+    width: 60px;
+    height: 60px;
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 100%;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
+}
+.section-2_icon_wrap i:nth-child(2){
+    position: absolute;
+    top: 0;
+    left: -100%;
+    opacity: 0;
+}
+.section-2_icon_wrap:hover i{
+    transform: translateX(60px);
+    transition: 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+    opacity: 0;
+}
+.section-2_icon_wrap:hover i:nth-child(2){
+    opacity: 1;
+}
+.section-2_icon_wrap i{
+    transition: 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+.section-2_icon_wrap{
+    transition: 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+.chung:hover .section-2_icon{
+    transform: translateX(150px);
+    transition: 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+.chung:hover .section-2_icon-icon{
+    transform: translateX(100px);
+    transition: 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+.section-2_icon i{
+    font-size: 20px;
+    color: #0c21ca;
+    padding: 20px;
+    background-color: transparent;
+}
+
+/* ------item-------- */
+.section_item{
+    position: absolute;
+    background-color: transparent;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+    padding: 0 31px;
+    opacity: 0;
+    height: 0%;
+}
+.section_item h3{
+    font-size: 30px;
+    font-family: 'PoppinBold';
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.section_item ul{
+    list-style: none;
+    margin-bottom: 9px;
+}
+.list_item{
+    display: flex;
+}
+.list_item li:first-child{
+    padding-right: 4px;
+}
+.list_item li a{
+    color:#B1B8F0;
+    font-size: 14px;
+    font-family: 'Roboto-Regular';
+    text-decoration: underline;
+}
+.list_item li:hover a{
+    color:#ffffff;
+}
+
+
+
+
+
+
+
+
+
+.section-2_bottom{
+    display: flex;
+}
+.wrap-do-dien{
+    width: 630px;
+    position: relative;
+}
+.dodien{
+    width: 100%;
+}
+.wrap_dodien{
+    width: 100%;
+    height: 100%;
+}
+.wrap_dodien img{
+    width: 100%;
+    height: 100%;
+}
+.wrap-tran-see{
+    width: 100%;  
+    display: flex;  
+}
+.trannha{
+    width: 50%;
+}
+.wrap_trannha{
+    width: 100%;
+    height: 100%;
+}
+.wrap_trannha img{
+    width: 100%;
+    height: 100%;
+}
+.see{
+    width: 50%;
+}
+.wrap_see{
+    width: 100%;
+    height: 100%;
+}
+.wrap_see img{
+    width: 100%;
+    height: 100%;
+}
+.dieuhoa{
+    width: 660px;
+}
+.wrap_dieuhoa{
+    width: 100%;
+    height: 100%;
+}
+.wrap_dieuhoa img{
+    width: 100%;
+    height: 100%;
+}

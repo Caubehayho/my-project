@@ -1,0 +1,154 @@
+@media ( max-width: 575px){
+
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* -------------------------------header------------------ */
+    .header_left_wrap a span{
+        font-size: 30px;
+    }
+    
+    .bar_mobile a i{
+        font-size: 24px;
+    }
+
+    .header_right_ul li:nth-child(2),
+    .header_right_ul li:nth-child(3){
+        display: none;
+    }
+
+    .wrap_img-header_right{
+        width: 20px;
+        height: 20px;
+    }
+
+
+    /* -------------------------------section-1------------------ */
+
+    .section-1{
+        padding-top: 80px;
+    }
+
+    .section-1_img_wrap{
+        opacity: 0.8;
+    }
+
+    .section-1_content_left h1{
+        font-size: 20px;
+    }
+
+    .section-1_content_left p{
+        font-size: 10px;
+        margin-bottom: 12px;
+    }
+
+    .section-1_content_wrap{
+       padding-top: 80px;
+    }
+    
+    .section-1_content_left a{
+        width: 100px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+     /* -------------------------------section-2------------------ */
+
+
+    .section-2_content_wrap{
+        padding-top: 0;
+        padding-bottom: 4%;
+    }
+
+    .section-2_content_left{
+        padding-top: 40%;
+    }
+
+    .section-2_content_left-name h2{
+        font-size: 20px;
+    }
+
+    .section-2_content_left-info span{
+        font-size: 10px;
+    }
+
+    .section-2_content_left-info ul li p,
+    .section-2_content_left-info a{
+        font-size: 10px;
+    }
+
+    .section-2_content_left-info a{
+        width: 120px;
+        height: 25px;
+    }
+
+      /* -------------------------------section-3------------------ */
+
+      .section-3_top-wrap{
+        padding-top: 60px;
+      }
+
+      .section-3_top-wrap ul{
+
+        justify-content: space-between;
+      }
+
+      .section-3_top-wrap ul li{
+        margin: 0 13px;
+        padding-top: 0;
+      }
+      
+      .section-3_top-wrap ul li a{
+        font-size: 14px;
+      }
+
+        /* -------------------------------section-3------------------ */
+
+
+      .slick-ktiep{
+        left: 20px;
+    }
+    .slick-tiep{
+        right: 20px;
+    }
+
+     /* ------------------------section-5-------------------- */
+
+     .section-5{
+        padding-bottom: 54px;
+     }
+
+     .section-5_right-img-son{
+        width: 45%;
+        bottom: -1px;
+     }
+
+     /* ------------------------section-6-------------------- */
+
+     .section-6{
+        padding-top: 50px;
+     }
+
+     /* ------------------------footer-------------------- */
+    .footer_top h2{
+        font-size: 15px;
+    }
+
+    .footer_bottom_wrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_social{
+        justify-content: center;
+    }
+    
+    .footer_bottom_content{
+        margin-bottom: 8px;
+    }
+
+     
+}

@@ -1,0 +1,35 @@
+@media (max-width: 1399px){
+    /* ------------section-2----------- */
+
+    .section-2_content_left-info::after{
+        left: -8%;
+    }
+
+     /* ---------------section-5------- */
+
+     .section-5_right-img-son{
+        width: 45%;
+        bottom: 0;
+        top: unset;
+        transform: translateY(0);
+     }
+
+
+    /* ---------------section-6------- */
+    .section-6{
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+
+    .slick-ktiep-6{
+        position: absolute;
+        left: 6%;
+        top: 39.6%;
+    }
+    
+    .slick-tiep-6{
+        position: absolute;
+        right: 6%;
+        top: 39.6%;
+    }
+}

@@ -1,0 +1,21 @@
+.wrap-section-4{
+    margin-top: 111px;
+    display: flex;
+}
+.wrap_whatwedo-section-4{
+    align-items: flex-start;
+    margin-top: 0px;
+}
+.wrap_whatwedo-section-4 h2{
+    margin-top: 8px;
+}
+.wrap_whatwedo-section-4 p {
+    text-align: left;
+}
+.section4-right{
+    max-width: 144px;
+}
+.section4-right img{
+    width: 100%;
+    height: auto;
+}

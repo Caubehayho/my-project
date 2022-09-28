@@ -1,0 +1,478 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+#main{
+position: relative;
+}
+/* commonnn */
+.mt-16px{
+    margin-top: 16px;
+}
+.mt-8px{
+    margin-top: 8px;
+}
+.clear{
+    clear: both;
+}
+
+.text-white{
+    color: white !important;
+}
+.row{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.col{
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.col-third{
+    width: calc(100%/3);
+}
+.col-half{
+    width: 50%;
+}
+.col-full{
+    width: 100%;
+}
+/*  Common   */
+#header{
+    background-color: black;
+    height: 46px; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+#nav{
+float: left;
+}
+#nav li {
+    color: gainsboro;
+    float: left;
+    list-style: none;
+    text-decoration: none;
+    line-height: 46px;
+    padding:0 28px;
+    font-size: 20px;
+    position: relative;
+    
+}
+#nav >li > a{
+    text-decoration: none;
+    color: white;
+}
+#nav li:hover{
+    background-color: gainsboro;
+}
+
+#nav > li:hover > a{
+    color: #000;
+    background-color: gainsboro;
+}
+#nav .subnav{
+ background-color: white;
+ position: absolute ;
+ left: 0;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+ display: none; 
+ min-width: 170px;
+}
+#nav .subnav > li{
+    width: 100%;
+    padding-left: 20px;
+    color: black;
+    background-color: white;
+    display: block;
+}
+#nav .subnav > li a{
+   font-size: 18px;
+   text-decoration: none;
+   color: black;
+   display: block;
+}
+#nav li a {
+    line-height: 46px;
+}
+
+#nav .subnav > li:hover {
+    background-color: gainsboro;
+    color: white;
+ }
+/* #nav .subnav > li:hover a{
+   background-color: gainsboro;
+   color: white;
+} */
+ 
+#nav li:hover .subnav{
+    display: block;
+
+}
+.menu-btn,
+.search-button{
+  height: 46px;  
+  width: 5%;
+  background-color: rebeccapurple;
+  float: right;
+
+}
+.menu-btn{
+    width: 10%;
+
+}
+
+.icon-mb,
+.icon{
+   height: 46px;
+   font-size: 20px;
+    background-color: black;
+    color: white;
+    line-height: 46px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.search-button :hover{
+    background-color: orangered;
+}
+.menu-btn :hover{
+    background-color: gainsboro;
+    color: black;
+}
+
+#slider{
+    margin-top: 46px;
+    background-color: rebeccapurple;
+    padding-top: 50%;
+    background:url(/source/img/bannhac.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+.text-content{
+    position: absolute;
+    bottom:48px;
+    color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.text-content .text-heading{
+    font-weight: 100;
+
+}
+.text-content .text-description{
+    margin-top: 10px;
+}
+
+/* ------ */
+#content{
+
+}
+#content .content-section{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0;
+    max-width: 100%;
+    padding: px;
+   
+}
+#content .section-heading{
+    text-align: center;
+
+}
+#content .section-heading{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 4px;
+
+}
+#content .section-sub-heading{
+    text-align: center;
+}
+#content .section-sub-heading{
+   font-size: 15px;
+   margin-top: 25px;
+   opacity: 70%;
+   font-style: italic;
+}
+#content .about-text{
+    margin-top: 25px;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.4 ;
+}
+/* about */
+.list-member .member-item{
+    float: left;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    padding: 32px 0;
+    text-align: center;
+}
+.list-member .member-item .member-name{
+    text-align: center;
+}
+.member-item .member-img{
+    padding: 15px;
+    border-radius: 20px;
+    width: 200px;
+}
+.list-member{
+    overflow: auto;
+}
+
+/*  tour */
+.tour-section{
+    background-color: black;
+}
+
+.ticket-list{
+    background-color: white;
+    margin-top: 50px;
+    
+}
+.ticket-list li{
+    padding: 5px 15px;  
+    border-bottom: 1px solid gainsboro;
+}
+.sold-out{
+    background-color: orangered;
+    color: white;
+    margin-left: 20px;
+    padding: 3px;
+    
+}
+.ticket-list .quantity{
+    float: right;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 60px;
+    line-height: 20px;
+}
+.tour-img{
+    margin-top: 32px; 
+    margin-bottom: 80px;
+}
+.img-newyork{
+    padding: 0px;
+    margin: 0px;
+    background-color: white ;
+    
+}
+.img-newyork .anh-newyork{
+   width: 100%;
+   height: 100%;
+}
+.anh-newyork:hover{
+    opacity: 70%;
+}
+
+.tt-newyork{
+    background-color: white;
+    padding: 25px 15px 15px 15px;
+    margin-bottom: 20px;
+}
+.infor{
+  padding: 10px 0px;
+  
+}
+.infor1{
+    padding: 10px 0px;
+    opacity: 70%;
+   
+}
+.Buy-ticket{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    border: 1px solid gainsboro;
+}
+.tt-newyork .Buy-ticket:hover {
+    color: black;
+    background-color: gainsboro;
+    cursor: pointer;
+}
+#footer{
+
+}
+
+
+.model{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.model.open{
+    display: flex;
+}
+.model-container{
+    background-color: white;
+    width: 900px;
+    min-height: 200px;
+    position: relative;
+    max-width: calc(100% - 32px);
+    animation: modelFaceIn ease 0.8s;
+}
+.model-close{
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+    
+}
+.model-close :hover{
+    
+    color:  rgba(0, 0, 0, 0.3);
+}
+
+.model-header{
+    background-color:  #99d129;
+    height: 130px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: white;
+}
+.moder-body{
+    padding: 15px;
+    text-align: left;
+}
+.moder-body .model-laber{
+    display: block;
+    padding: 20px 0; 
+}
+.model-input{
+  font-size: 15px;
+  border: 0.5px solid black;
+  padding: 10px;
+  width: 100%;
+}
+#button-pay{
+    margin-top: 15px;
+    width: 100%;
+    padding: 20px;
+    background-color:  #99d129;
+    border: 0.5px solid black;
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+#button-pay:hover{
+    opacity: 0.8;
+}
+.model-footer{
+    padding: 20px 20px 40px 20px;
+}
+.model-footer a{
+    color: blue;
+}
+
+/* ddddddddddddddd */
+
+.chua{
+    margin-top: 48px;
+    
+}
+.contact-inf{
+    font-size: 18px;
+    line-height: 1.6;
+}
+.contact-inf i[class*="fas"]{
+    width: 30px;
+    display: inline-block;
+}
+.font-form{
+    font-size: 15px;
+}
+.form-control{
+    padding: 4px;
+    height: 38px;
+    border: 1px solid gainsboro;
+    width: 100%;
+}
+.button-send{
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 16px;
+    margin-bottom: 60px;
+    float: right;
+    background-color: #000;
+    color: white;
+    border: 1px solid gainsboro;
+}
+.button-send:hover{
+    background-color: gainsboro;
+    color: black;
+    cursor: pointer;
+}
+/* ddddddddddddddddd */
+
+/* map-footer */
+.section-map{
+}
+.section-map img{
+    width: 100%;
+    height: 100%;
+}
+#footer{
+    text-align: center;
+    padding: 90px 0px;
+    font-size: 15px;
+    line-height: 45px;
+    color: grey;
+}
+
+.social{
+    font-size: 25px;
+    padding: 0px 5px;
+}
+.social a{
+    font-size: 25px;
+    padding: 0px 1px;
+}
+#footer a{
+    color: gray;
+}
+#footer .social a:hover{
+    opacity: 70%;
+}
+@keyframes modelFaceIn {
+    from {
+        opacity: 0;
+        transform: translateY(-180px);
+
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+
+    }
+}
+

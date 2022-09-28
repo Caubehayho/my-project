@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('/sourcess/font/font-header/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiDyp8kv8JHgFVrJJLmr19VGdeOcEg.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+.active-boder{
+    border: 1px solid #0c21ca !important;
+}
+.ftco-section-6{
+    padding-bottom: 110px;
+}
+.featured-carousel-6{
+    width: 100%;
+}
+.row_section-6{
+    justify-content: center;
+}
+.featured-carousel-6 .owl-dot{
+    display: none;
+}
+.featured-carousel-6 .owl-stage-outer .owl-stage{
+   transition: all 0.6s ease-in !important; 
+}
+.featured-carousel-6 .owl-stage-outer{
+    padding-top: 24px;
+    padding-bottom: 0;
+}
+.slide-6-image{
+    display: flex;
+    justify-content: center;
+}
+.item-section-6{
+    width: 410px;
+}
+.wrap_whatwedo-section-6 h2{
+    margin-top: 14px;
+    margin-bottom: 23px;
+}
+.wrap-content-section-6{
+    padding-top: 100px;
+    position: relative;
+    margin-top: -60px;
+    z-index: 1;
+    box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.03);
+    transition: all 0.3s ease-in;
+    border: 1px solid transparent;
+    padding-left: 51px;
+    padding-right: 51px;
+}
+.wrap-content-section-6 p{
+    line-height: 35px;
+}
+.wrap-content-section-6:hover{
+    transition: all 0.3s ease-in;
+    border: 1px solid #0c21ca;
+}
+.wrap-slide-6{
+    text-align: center;
+}
+.wrap-slide-6-img{
+    width: 120px;
+    height: 120px;
+    z-index: 5;
+    position: relative;
+}
+.wrap-slide-6-img img{
+    width: 100%;
+    height: auto;
+}
+.wrap-slide-6 p{
+font-size: 20px;
+margin-bottom: 30px;
+color: #777777;
+}
+.wrap-slide-6 h3{
+font-size: 14px;
+font-weight: 400;
+margin-top: 4px;
+margin-bottom: 6px;
+font-family: 'Roboto-Regular',sans-serif;
+text-transform: uppercase;
+text-decoration: underline;
+color: #0c21ca;
+}
+.wrap-slide-6 h4{
+font-size: 24px;
+padding-bottom: 37px;
+font-weight: 600;
+font-family: 'Poppins';
+letter-spacing: -0.5px;
+color: #002659;
+}
+
+.icon-sec6{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #0c21ca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 6;
+    border-radius: 100%;
+    top: 0;
+    right: 0;
+}
+.icon-sec6 >img{
+    width: 100%;
+    height: auto;
+}

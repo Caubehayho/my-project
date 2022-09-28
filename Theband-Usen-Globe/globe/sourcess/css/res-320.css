@@ -1,0 +1,135 @@
+@media (max-width:479px)
+{
+    /* ----------------------header--------------------------- */
+    .area_logo {
+        max-width: 100px;
+    }
+    .area_logo img{
+        width: 100px;
+    }
+    .wrap_interaction button{
+        width: 35px ;
+        height: 35px ;
+    }
+    .wrap_interaction button i{
+        font-size: 12px;
+    }
+    .wrap_interaction button >label{
+        display: block;
+    }
+    /* ------------------------banner--------------- */
+    .play{
+        width: 80px;
+        height: 80px;
+    }
+    .repair h1{
+        font-size: 60px;
+        }
+    /* --------------------------section-1------------ */
+    .cup_content{
+        width: 150px;
+        height: 200px;
+        left: -6%;
+        top: 10%;
+        padding: 60px 20px;
+    }
+    .cup_content-icon{
+        width: 55px;
+        height: 61px;
+    }
+    .cup_content >span{
+       font-size: 14px;
+    }
+    .blue{
+        height: 27%;
+    }
+    .chooseus_ul{
+        flex-direction:  column;
+    }
+    .founder{
+        flex-direction: column;
+    }
+    .founder_right{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    /* ----------------------------------section-2---------------- */
+    .chung:hover .section-2_icon{
+        transform: translateX(80px);
+    }
+    .chung:hover .section-2_icon-icon{
+        transform: translateX(90px);
+    }
+    .list_item li a{
+        font-size: 14px;
+    }
+    .section_item h3{
+        font-size: 20px;
+    }
+    .dodien:hover .section_item{
+        height: 70px;
+    }
+    /* ----------------------------------section-4--------------------- */
+    .wrap_whatwedo-section-4 h2{
+        font-size: 45px;
+    }
+    .wrap-slide-4:hover .slide-4-image::after{
+        transform: scale(3.5);
+    }
+    /* -------------------------------------section-5----------------- */
+    .section-5-left{
+        display: flex;
+        justify-content: center;
+    }
+    .section-5-left span{
+        font-size: 200px;
+    }
+    .section-5-left small{
+        top:100%;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+        font-size: 18px;
+        right: 10px;
+    }
+    .wrap-section-5-content h3{
+        font-size:14px ;
+    }
+    .section-5-right{
+        margin-top: 50px;
+        flex-direction: column;
+        width: 100%;
+    }
+    .section-5-right li{
+        width: 100%;
+    }
+    .wrap-section-li{
+        padding-top: 10px !important;
+        padding-bottom: 20px !important;
+    }
+    .quatation-section-5{
+        width: 100%;
+        padding: 30px 30px;
+    }
+    /* -------------------------section-6----------------------- */
+    .wrap-content-section-6{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /* ---------------------------------------section-7--------------------- */
+    .bacground-section-7{
+        height: 300px;
+    }
+    .wrap-content-1{
+        width: 100%;
+    }
+    /* -----------------------------------moobile-search------------ */
+    .area-search-mobile-left{
+        width: 80%;
+    }
+    .area-search-mobile-right{
+        width: 20%;
+    }
+    
+}

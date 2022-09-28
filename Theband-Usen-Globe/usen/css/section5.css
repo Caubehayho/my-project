@@ -1,0 +1,123 @@
+/* ----------------FONT----------- */
+@font-face{
+    font-family: 'Poppin-Light' ;
+    src: url(../font/Poppins-Light.ttf);
+}
+@font-face{
+    font-family: 'Poppin-Regular' ;
+    src: url(../font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'Poppins-medium';
+    src: url(../font/Poppins-Medium.ttf);
+ } 
+/* ----------------FONT-END--------*/
+.section-5{
+    padding-bottom: 94px;
+}
+
+/* -------left------- */
+.section-5_left{
+    margin-top: 116px;
+}
+
+.section-5_left h2{  
+    font-family: 'Poppin-Light';
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 31px;
+}
+
+.section-5_left p{  
+    font-family: 'Poppin-Regular' ;
+    font-size: 14px;
+    color: #868686;
+    line-height: 26px;
+    margin-bottom: 35px;
+}
+
+.section-5_left a{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 153px;
+    height: 43px;
+    background-color: transparent;
+    border: 2px solid #000000;
+    color: #000000;
+    font-family: 'Poppins-medium';
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    transition: all 0.2s linear;
+}
+
+.section-5_left h2::selection,
+.section-5_left a::selection,
+.section-5_left p::selection{
+    background-color: #f76a23;
+    color: #ffffff;
+}
+
+.section-5_left a::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: #f76a23;
+    transition: all 0.2s linear;
+    z-index: -1;
+}
+
+.section-5_left a:hover::before{
+    height: 100%;
+    bottom: 0;
+    top: auto;
+    transition: all 0.2s linear;
+}
+
+.section-5_left a:hover{
+    color: #ffffff;
+    transition: all 0.2s linear;
+}
+
+/* --------right------ */
+.section-5_right{
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.section-5_right-img{
+    width: 556px;
+}
+
+.section-5_right-img img{
+    width: 100%;
+}
+
+.section-5_right-img-son{
+    position: absolute;
+    width: 315px;
+    left: 0;
+    top: 57%;
+    transform: translateY(-50%);
+}
+
+.section-5_right-img-son img{
+    width: 100%;
+    height: 100%;
+}
+
+.section-5_right-tron{
+    position: absolute;
+    top: 49px;
+    right: -7.45%;
+}

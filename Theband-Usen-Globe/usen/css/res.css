@@ -1,0 +1,12 @@
+@media (max-width: 1920px){
+
+    .container{
+        max-width: 1740px;
+    }
+    
+    .container-section-1{
+        max-width: 1410px;
+        padding: 0;
+    }
+    
+}

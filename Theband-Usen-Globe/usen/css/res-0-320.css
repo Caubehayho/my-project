@@ -1,0 +1,9 @@
+@media ( max-width: 320px){
+
+
+    /* -------------------section-2--------------- */
+    
+    .section-2_content_left-info::after{
+        display: none;
+    }
+}
